@@ -2,7 +2,7 @@ package com.appspot.myswaram.logic;
 
 public class PatternToHtmlMapper {
 	
-	public static String convert(String pattern) {
+	public static String convert(String pattern) {//Test commit
 		String[] swaramArray = pattern.split(",");
 		String[][] tableArray = new String[32][32];
 		int x = tableArray.length / 2 - 1;
